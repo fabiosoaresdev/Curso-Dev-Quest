@@ -1,0 +1,21 @@
+h1 {
+    background-color: aqua;
+}
+
+button{
+    background-color: black;
+    color: #f1e709;
+    border-radius: 15px;
+    
+}
+
+button:hover {
+    background-color: #f1e709;
+    color: black;
+    border-radius: 15px;
+}
+
+p {
+    color: blueviolet;
+    font-size: 20px;
+}
