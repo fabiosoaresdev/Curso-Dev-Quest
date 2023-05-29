@@ -1,3 +1,23 @@
 p{
-    margin: 10px;
+    margin: 5px 160px 5px 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    padding: 7px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.5px ; 
+}
+
+img {
+    height: 130px;
+}
+
