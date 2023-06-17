@@ -1,0 +1,12 @@
+h1 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+span {
+    background-color: #000;
+    color: #f1e800
+}
