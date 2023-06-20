@@ -1,0 +1,76 @@
+html{
+    background-color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    
+}
+
+.caixa {
+    background-color: rgb(226, 223, 43);
+    width: 50%;
+    border-style: solid;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 7px;
+
+}
+/* 1 em = 16px */
+.caixa1 {
+    background-color: blueviolet;
+    width: 50%;
+    border-style: solid;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.pai{
+    background-color: #ea80fc;
+    width: 50%;
+    font-size: 2em;
+}
+
+.filha{
+    background-color: #1de9b6;
+    width: 50%;
+    font-size: 2em;
+}
+
+.caixa2{
+    background-color: blueviolet;
+    width: 50%;
+    font-size: 32px;
+    border-style: solid;
+    padding: 5px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.exemplo2{
+    font-size: 2rem;
+}
+.pai2{
+    background-color: #ea80fc;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.filha2{
+    background-color: #1de9b6;
+    width: 50%;
+    font-size: 0.5rem;
+}
+
+.name{
+    color: #ff0000;
+}

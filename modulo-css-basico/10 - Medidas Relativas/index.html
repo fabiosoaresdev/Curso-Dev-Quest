@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida Relativas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="center">
+        <h1 style="text-align: center;">Unidades de medida relativas</h1>
+    </header>
+
+    <div class="caixa">
+        <p>o tipo de medida EM faz o cálculo de acordo com a hierarquia. Ele pega o tamanho da classse pai e faz o cálculo para definir o tamanho da fonte ou caractere da classe filha. Como pode ser visto no exemplo a baixo, o h2 tem um tamanho </p>
+    </div>
+    <div class="caixa1">
+        <h2 class="exemplo1">Exemplo com <span class="name">em</span></h2>
+        <div class="pai">
+        <p>pai</p>
+            <div class="filha">
+                <p>filha</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="caixa">
+        <p>Já o span faz todo cálculo de acordo com o tamanho do caractere do pai. como pode ser visto no exemplo a baixo, o h2 tem um tamanho de 32px, e o rem é calculado com base nisso. </p>
+    </div>
+    
+    
+    <div class="caixa2">
+        <h2 class="exemplo2">Exemplo com <span class="name">rem</span></h2>
+            <div class="pai2">
+            <p>pai</p>
+                <div class="filha2">
+                    <p>filha</p>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>
