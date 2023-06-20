@@ -1,0 +1,22 @@
+.produto{
+    background-color: aqua;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px 60px;
+}
+
+.produto span{
+    font-size: 20px;
+    color: brown;
+}
+
+div{
+    width: 200px;
+
+}
+
+.imagemProduto{
+    border-style: solid;
+    border-image: 10px
+}
