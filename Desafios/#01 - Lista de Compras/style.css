@@ -1,0 +1,19 @@
+html{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #eee;
+}
+p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.total{
+    font-size: 35px;
+}
