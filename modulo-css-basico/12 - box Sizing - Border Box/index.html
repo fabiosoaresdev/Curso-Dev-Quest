@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box Siging</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A importância de usar box-size: border-box; no seu código.</h1>
+
+    <p class="Fonte">A caixa a baixo não tem border box definido. Ela é uma caixa de 100px de largura por 100px de altura. porém, após colocar uma borda de 10px, e um padding de 10px, a caixa acaba ficando com o seu tamanho alterado, passando a ocupar 140px ao invés de 100px </p>
+
+    <p class="Fonte">Isso acontece visto que 10 px do padding + 10 px da borda é = a 20px, e essas propriedades são aplicadas em todos os lados da caixa, sendo assim, 20 nas laterais e 20 na parte superior e inferior</p>
+
+
+    <div class="sem-border-box">
+        <span class="Fonte">Sem Border Box</span>
+    </div>
+
+    <p class="Fonte">No exemplo a baixo, foi adicionado o border Box. Note que ele permanece com seu tamanho de 100px de largura por 100px de altura</p>
+
+    <div class="com-border-box">
+        <span class="Fonte">Com Border Box</span>
+    </div>
+</body>
+</html>
