@@ -1,0 +1,31 @@
+*{
+    margin: 1%;
+    
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    justify-content: center;
+    border-style: solid;
+    
+}
+
+.btn-cadastrar{
+    background-color: #3aa508;
+    color: aliceblue;
+    padding: 1% 3%;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+}
+
+.btn-cadastrar:hover{
+    background-color: #6da160;
+    color: #d7d7a8;
+}
