@@ -10,7 +10,7 @@ ul li {
 }
 
 .lista-desordenada {
-    list-style: square inside url(icone.png);
+    list-style: square inside url(src/images/icone.png);
     background-color: rgb(234, 64, 64);
     margin: 1% 30%;
 }
@@ -20,7 +20,7 @@ ol li {
 }
 
 .lista-ordenada {
-    list-style: square inside url(icone.png);
+    list-style: square inside url(src/images/icone.png);
     background-color: aquamarine;
     margin: 1% 30%;
 
