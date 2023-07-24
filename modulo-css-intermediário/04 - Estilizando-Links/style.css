@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+
+.link1{ 
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+
+.link1:hover{
+    background-color: #08ecd9;
+    border-radius: 50px;
+}
+.link1:active{
+    background-color: yellow;
+}
+
+.link1:visited{
+    color: violet;
+}
+.link2{
+    margin: 20px;
+    padding: 20px;
+}
