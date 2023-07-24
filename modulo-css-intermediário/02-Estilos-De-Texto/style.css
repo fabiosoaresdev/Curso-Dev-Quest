@@ -1,0 +1,93 @@
+/* -------------------------------------- */
+/* ------------ TEXT ALIGN -------------- */
+/* -------------------------------------- */
+.alinhado-esquerda {
+  text-align: left;
+}
+
+.alinhado-direita {
+  text-align: right;
+}
+
+.alinhado-centro {
+  text-align: center;
+}
+
+.alinhado-justificado {
+  text-align: justify;
+}
+
+/* -------------------------------------- */
+/* ----------- TEXT TRANsFORM ----------- */
+/* -------------------------------------- */
+
+.maiuscula {
+  text-transform: uppercase;
+}
+
+.minuscula {
+  text-transform: lowercase;
+}
+
+.capitalizado {
+  text-transform: capitalize;
+}
+
+/* -------------------------------------- */
+/* --------- TEXT DECORATION ------------ */
+/* -------------------------------------- */
+
+.sublinhado {
+  text-decoration: underline;
+}
+
+.linha-sobreposta {
+  text-decoration: line-through;
+}
+
+.sem-text-decoration {
+  text-decoration: none;
+}
+
+/* -------------------------------------- */
+/* -------- ESPAÇO ENTRE LETRAS --------- */
+/* -------------------------------------- */
+
+.altura-entre-linhas {
+  line-height: 40px;
+}
+
+/* -------------------------------------- */
+/* --------- SOMBRA NO EXTO ------------- */
+/* -------------------------------------- */
+
+.sombra-de-texto {
+  text-shadow: 2px 2px 1px #888;
+}
+
+/* -------------------------------------- */
+/* --------------- GERAL  --------------- */
+/* -------------------------------------- */
+.fundo-alinhamento {
+  padding: 20px;
+  background-color: #D1C4E9;
+}
+
+.fundo-transform {
+  padding: 20px;
+  background-color: #C8E6C9;
+}
+
+.fundo-decoration {
+  padding: 20px;
+  background-color: #FFF9C4;
+}
+
+.fundo {
+  padding: 20px;
+  background-color: #ccc;
+}
+
+html {
+  font-size: 24px;
+}
